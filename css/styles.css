@@ -55,6 +55,61 @@ h6 {
   border: 1px solid tomato;
 }
 
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+/* ===========Header==================== */
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  margin-left: auto;
+  margin-right: 30px;
+}
+.nav-list {
+  display: flex;
+  gap: 28px;
+}
+.nav-link {
+  padding: 28px 0;
+  display: block;
+  color: var(--Black, #2C2C2C);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.nav-link:hover, .nav-link:focus {
+  color: #BBF330;
+  text-decoration-line: underline;
+}
+.header-btn {
+  display: block;
+  color: var(--Black, #2C2C2C);
+  text-align: right;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  /* 19.5px */
+  border-radius: 30px;
+    background-color: var(--Button-green, #BBF330);
+    padding: 6px 18px;
+    width: 98px;
+    height: 32px;
+    border: none;
+    cursor: pointer;
+}
+.header-btn:hover, .header-btn:focus {
+  background-color: #FFE450;
+
+}
 /* ========= Hero section ========= */
 .hero-section {
   display: flex;
