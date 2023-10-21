@@ -19,6 +19,12 @@ ol {
   margin-bottom: 0;
 }
 
+button,
+a {
+  font-family: inherit;
+  cursor: pointer;
+}
+
 h1,
 h2,
 h3,
@@ -115,8 +121,12 @@ h6 {
 .hero-section {
   display: flex;
   justify-content: space-between;
-  padding: 14px 16px;
-  /* margin-bottom: -160px; */
+  padding-bottom: 14px;
+  padding-top: 14px;
+}
+
+.hero-container {
+  display: flex;
 }
 
 .hero-section__content-wrapper {
@@ -217,7 +227,6 @@ h6 {
   /* background-image: url(../images/background-section2-3.png); */
   /* background-size: 824px 1280px; */
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .section-container {
