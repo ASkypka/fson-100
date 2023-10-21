@@ -84,19 +84,20 @@ h6 {
 .nav-link {
   padding: 28px 0;
   display: block;
-  color: var(--Black, #2C2C2C);
+  color: var(--Black, #2c2c2c);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-.nav-link:hover, .nav-link:focus {
-  color: #BBF330;
+.nav-link:hover,
+.nav-link:focus {
+  color: #bbf330;
   text-decoration-line: underline;
 }
 .header-btn {
   display: block;
-  color: var(--Black, #2C2C2C);
+  color: var(--Black, #2c2c2c);
   text-align: right;
   font-family: 'Roboto';
   font-size: 13px;
@@ -105,22 +106,27 @@ h6 {
   line-height: 1.5;
   /* 19.5px */
   border-radius: 30px;
-    background-color: var(--Button-green, #BBF330);
-    padding: 6px 18px;
-    width: 98px;
-    height: 32px;
-    border: none;
-    cursor: pointer;
+  background-color: var(--Button-green, #bbf330);
+  padding: 6px 18px;
+  width: 98px;
+  height: 32px;
+  border: none;
+  cursor: pointer;
 }
-.header-btn:hover, .header-btn:focus {
-  background-color: #FFE450;
-
+.header-btn:hover,
+.header-btn:focus {
+  background-color: #ffe450;
 }
 /* ========= Hero section ========= */
 .hero-section {
   display: flex;
   justify-content: space-between;
-  padding: 14px 16px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+}
+
+.hero-container {
+  display: flex;
 }
 
 .hero-section__content-wrapper {
