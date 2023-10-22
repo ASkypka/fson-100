@@ -180,23 +180,30 @@ h6 {
   width: 608px;
 }
 
+.arrow-next,
 .arrow-previous {
   position: absolute;
   cursor: pointer;
   top: 50%;
+  fill: #FEFEFE;
+}
+
+.arrow-previous {
   left: 0;
 }
 
 .arrow-next {
-  position: absolute;
-  cursor: pointer;
-  top: 50%;
   right: 0;
 }
 
-.arrow-next:hover,
-.arrow-previous:hover {
-  color: #7eb101;
+.arrow-next path,
+.arrow-previous path {
+  fill: #2C2C2C;
+}
+
+.arrow-next:hover path,
+.arrow-previous:hover path {
+  fill: #7eb101;
 }
 
 .hero-section__img {
